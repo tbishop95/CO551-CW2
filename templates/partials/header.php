@@ -23,6 +23,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 th {
   background-color: #2D5EB5;
   color: white;
+  text-align: center;
 }
 
 input[type=text], select {
