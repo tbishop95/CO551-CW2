@@ -21,7 +21,6 @@
           $sql .= "'$_POST[txthouse]', '$_POST[txttown]', '$_POST[txtcounty]', '$_POST[txtcountry]', '$_POST[txtpostcode]');";
 
           $result = mysqli_query($conn,$sql);
-          echo $sql;
       }
       // prepare page content
 

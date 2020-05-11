@@ -14,7 +14,16 @@ if (isset($_SESSION['id'])) {
    // if the form has been submitted
    if (isset($_POST['submit'])) {
 
-      // build an sql statment to update the student details
+      //SQL Injection Protection
+      $fname = mysqli_real_escape_string($conn, $_POST['txtfirstname']);
+      $sname = mysqli_real_escape_string($conn, $_POST['txtlastname']);
+      $house = mysqli_real_escape_string($conn, $_POST['txthouse']);
+      $town = mysqli_real_escape_string($conn, $_POST['txttown']);
+      $county = mysqli_real_escape_string($conn, $_POST['txtcounty']);
+      $country = mysqli_real_escape_string($conn, $_POST['txtcountry']);
+      $postcode = mysqli_real_escape_string($conn, $_POST['txtpostcode']);
+
+      //Updates student details
       $sql = "update student set firstname ='" . $_POST['txtfirstname'] . "',";
       $sql .= "lastname ='" . $_POST['txtlastname']  . "',";
       $sql .= "house ='" . $_POST['txthouse']  . "',";

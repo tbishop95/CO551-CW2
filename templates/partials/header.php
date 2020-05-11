@@ -8,9 +8,15 @@
 
    <body>
    	<style>
+
+body {
+  font-family: Avenir;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-top: 1rem;
 }
 
 th, td {

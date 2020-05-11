@@ -11,63 +11,62 @@
 
       // layout and form
       $data['content'] = <<<EOD
-      <div class="jumbotron vertical-center" style="margin-bottom:0; test-align: HRTime\PerformanceCounter">
-      <h2 style="text-align:center;">Add New Student</h2>
+      <h2 style="text-align:center; font-family: Avenir;">Add New Student</h2>
       <form name="frmdetails" action="confirmstudent.php" method="post">
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Student Identification Number :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtstudentid" type="text"  value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Student Identification Number :</div>
+        <div class="col-sm-2" "><input name="txtstudentid" type="text"  value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Password :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtpwd" type="text"  value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Password :</div>
+        <div class="col-sm-2" "><input name="txtpwd" type="text"  value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">First Name :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtfirstname" type="text"  value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">First Name :</div>
+        <div class="col-sm-2" "><input name="txtfirstname" type="text"  value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Surname :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtlastname" type="text"  value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Surname :</div>
+        <div class="col-sm-2" "><input name="txtlastname" type="text"  value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">D.O.B :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtdob" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">D.O.B :</div>
+        <div class="col-sm-2" "><input name="txtdob" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Number and Street :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txthouse" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Number and Street :</div>
+        <div class="col-sm-2" "><input name="txthouse" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Town :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txttown" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Town :</div>
+        <div class="col-sm-2" "><input name="txttown" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">County :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtcounty" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">County :</div>
+        <div class="col-sm-2" "><input name="txtcounty" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Country :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtcountry" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Country :</div>
+        <div class="col-sm-2" "><input name="txtcountry" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;">Postcode :</div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input name="txtpostcode" type="text" value="" /></div>
+        <div class="col-sm-2" style="background-color:#2D5EB5; color: #FFF; font-family: Avenir; padding: 5px;">Postcode :</div>
+        <div class="col-sm-2" "><input name="txtpostcode" type="text" value="" /></div>
       </div>
       <div class="row">
         <div class="col-sm-4" style=""></div>
-        <div class="col-sm-2" style="background-color:lavender;"></div>
-        <div class="col-sm-2" style="background-color:lavenderblush;"><input type="submit" value="Save" name="submit"/></div>
+        <div class="col-sm-2" style=""></div>
+        <div class="col-sm-2" "><input type="submit" value="Save" name="submit"/></div>
       </div>
       </div>
       </form>
